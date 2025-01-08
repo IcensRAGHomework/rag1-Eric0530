@@ -22,7 +22,7 @@ def generate_hw01(question):
     
     print("generate_hw01 請回答台灣特定月份的紀念日有哪些(請用JSON格式呈現)")
     print(question)  
-    question += "我希望的輸出格式是符合json格式的如下字串"+ format_output + "，不需要其他說明也不需要轉成markdown，若有多個節日，請放在\"Results\"" 
+    question += "我希望的輸出格式是符合json格式的如下字串"+ format_output + "，不需要其他說明也不需要轉成markdown，若有多個節日，請放在\"Result\"" 
     
        
     llm = AzureChatOpenAI(
