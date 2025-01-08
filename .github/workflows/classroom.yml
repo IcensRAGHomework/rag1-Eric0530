@@ -74,6 +74,8 @@ jobs:
         run: |
           source .venv/bin/activate
           cp temp-tests/test_assignment.py .
+          echo "Dump test_assignment.py:"
+          cat test_assignment.py
 
       - name: Debug Python Environment
         run: |
